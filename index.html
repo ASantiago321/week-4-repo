@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Week 4 Game</title>
+	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"/> Would not link using this href. Dont know why -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+</head>
+<body>
+	<h1>NES COLLECTOR</h1>
+
+	<p>You will be given a random number at the start of the game.<br><br>There are four characters below. By clicking on a NES character you will add a specific amount of points to your total score.<br><br>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number<br><br>The value of each character is hidden from you until you click on it.<br><br>Each time when the game starts, the game will change the values of each character.</p><br><br>
+
+    <h3 class="text-center" id="randomNumber"></h3><br>
+
+   	<h2>Wins: <entry id="numberOfWins"></entry></h2>
+
+   	<h2> Losses: <entry class="text-center" id="numberOfLosses"></entry></h2>
+
+   		<img src="assets/images/Mario.png" width=70px id="blueCrystal"></img>
+		<img src="assets/images/Megaman.png" width=100px id="redCrystal"></img>
+		<img src="assets/images/Kirby.png" width=100px id="yellowCrystal"></img>
+		<img src="assets/images/Sonic.png" width=100px id="greenCrystal"></img>
+
+  	<h3>Total Score: <entry class="text-center" id="totalScore"></entry></h3>
+
+
+
+
+
+
+
+
+	
+	<script src="assets/javascript/game.js"></script>
+</body>
+</html>
